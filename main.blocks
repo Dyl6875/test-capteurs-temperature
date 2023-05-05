@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="i,:(A5vF.,+/$IN)$DDe" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="$M$3l`t-D@-bBk_mmM0!"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_pause" id="G}`MW9s_iZ$3l9l:uAIg"><comment pinned="false" h="80" w="160">basic.show_string(convert_to_text(input.light_level()))</comment><value name="pause"><shadow type="timePicker" id="Dl^+`a$1x0??xH_=2c5i"><field name="ms">2000</field></shadow></value></block></next></block></statement></block><block type="device_forever" id="0ox%_m)/KvL}yJX#.:ix" x="5" y="422"><statement name="HANDLER"><block type="device_show_number" id="YFO|o/K2#e/ew6H-:@js"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_temperature" id="dIu+ZnONmh}7RX!Y992W"></block></value><next><block type="device_pause" id="kpHi;O+=BT~9,BG?LHy9"><comment pinned="false" h="80" w="160">basic.show_string(convert_to_text(input.light_level()))</comment><value name="pause"><shadow type="timePicker" id="`25(;JpAXH@e.~8mu8,?"><field name="ms">1000</field></shadow></value></block></next></block></statement></block></xml>
